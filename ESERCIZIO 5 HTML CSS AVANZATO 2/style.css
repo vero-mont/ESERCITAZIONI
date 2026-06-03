@@ -26,12 +26,13 @@ h2{
     width:auto;
     height:auto;
     border: 1px solid rgb(63, 11, 11);
-    background-color: rgb(63, 11, 11);
+    background-color: rgb(97, 50, 50);
     align-items: center;
     justify-content: center;
     gap: 20px;
     position: sticky ;
-    top: 0px;
+    top: 0;
+    
     z-index: 1000;
 }
 
@@ -94,7 +95,7 @@ button{
 nav>p{
     font-size: 30px;
     margin-left: 20px;
-    color: rgb(245, 2, 2)
+    color: rgb(59, 14, 14)
 }
 
 button:hover {
@@ -155,11 +156,12 @@ li{
 }
 
 .freccia{
-  background-color: rgb(243, 168, 168);  
-  position: absolute;
-  bottom: 0;          
-  right: 0;        
-  width: 50px;        
+  background-color: rgba(243, 168, 168, 0.1);  
+  position: fixed;
+  bottom: 0;
+  right: 0;          
+  width: 40px;   
+       
 }
 
 
@@ -187,9 +189,11 @@ li{
   animation-play-state: running;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 460px) {
      body{
-           transform: scale(0.95);
+           flex-direction: column;
+           justify-content: center;
+           
      }
     
 }
