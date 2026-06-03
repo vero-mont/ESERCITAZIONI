@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 4rem;
+    letter-spacing: 10px;
+}
+
+header{
+    background:linear-gradient(transparent, black),  url(./MEDIA/theater-background-4152-x-2768-0u7fkwrt3u0kl9cn.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+@media screen and (max-width: 768px) {
+     body{
+           transform: scale(0.95);
+     }
+    
+}
