@@ -13,3 +13,5 @@ console.log("i gatti rimanenti sono:  " + gatti_rimanenti); // 1
 
 let gatti_per_altra_fila= (gatti_per_fila - gatti_rimanenti);
 console.log("i gatti per completare  un'altra fila sono:  " + gatti_per_altra_fila); // 2
+
+
